@@ -1,9 +1,9 @@
-import React, { Component } from 'react';
-// import ReactDOM from 'react-dom';
-// import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
-import injectTapEventPlugin from 'react-tap-event-plugin';
-injectTapEventPlugin();
-import Spotify from './Components/Spotify';
+import React, {Component} from 'react';
+import Spotify            from './Components/Spotify';
+import SelectedArtists    from './Components/SelectedArtists';
+import Playlist           from './Components/Playlist';
+
+// The main stylesheet file.
 import './App.css';
 
 class App extends Component {
@@ -15,9 +15,10 @@ class App extends Component {
 
   render() {
     return (
-      <div className="App">
+      <div className="app">
         <Spotify />
-        <h2>Hello, this is a message from App!</h2>
+        <SelectedArtists />
+        <Playlist />
       </div>
     );
   }
