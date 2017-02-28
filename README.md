@@ -8,11 +8,13 @@
 - Click to select artist.
 - Display selected artists, option to open in Spotify app.
 - Generate a new random playlist based on selected artists top tracks.
+
 --------------------------
 ### React Components
 1. Spotify Search.
 2. Selected Artists.
 3. Playlist Generator.
+
 --------------------------
 ### Algorithm Pseudo Code
 1. Search for artists on input value change.
