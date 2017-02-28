@@ -4,8 +4,7 @@ import {bindActionCreators} from 'redux';
 import {connect}            from 'react-redux';
 import {buildPlaylist}       from '../Actions/buildPlaylist';
 
-// Abstract: communicate with Spotify API.
-// Renders: input search field.
+// Abstract: Builds the spotify playlist
 class Playlist extends Component {
 
   render() {

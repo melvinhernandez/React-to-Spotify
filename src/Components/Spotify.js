@@ -1,7 +1,6 @@
 import React, {Component}   from 'react';
 
 import {bindActionCreators} from 'redux';
-// Connect container to the passed down prop store.
 import {connect}            from 'react-redux';
 import {searchArtist}       from '../Actions/searchArtist';
 import {selectArtist}       from '../Actions/selectArtist';

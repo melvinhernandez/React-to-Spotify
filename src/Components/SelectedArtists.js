@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
-// Bind the actions to the dispatch and then to the props.
 import {bindActionCreators} from 'redux';
-// Connect container to the component.
 import {connect}            from 'react-redux';
 import {removeArtist}     from '../Actions/removeArtist';
 

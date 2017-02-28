@@ -6,7 +6,7 @@ let initialState = {
 
 /**
  * Randomize array element order in-place.
- * Using Durstenfeld shuffle algorithm.
+ * Using Durstenfeld shuffle algorithm. Taken from stackoverflow.
  */
 function shuffleArray(array) {
     for (var i = array.length - 1; i > 0; i--) {
