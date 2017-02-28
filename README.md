@@ -3,22 +3,17 @@
 
 ## Application Overview
 --------------------------
-
 - Search artists.
 - Live fetch and update search results from API.
 - Click to select artist.
 - Display selected artists, option to open in Spotify app.
 - Generate a new random playlist based on selected artists top tracks.
-
-## Technical Rundown
------------------------
-
-
+--------------------------
 ### React Components
 1. Spotify Search.
 2. Selected Artists.
 3. Playlist Generator.
-
+--------------------------
 ### Algorithm Pseudo Code
 1. Search for artists on input value change.
 2. Display fetched results as suggested artists.
@@ -29,3 +24,6 @@
 - Call on API to get top tracks for each.
 - Dispatch action when all have been fetched.
 - Add tracks id to the iFrame Spotify widget.
+
+#### Disclosure
+> Web app's focus was set on functionality rather than design.
